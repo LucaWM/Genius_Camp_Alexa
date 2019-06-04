@@ -1,0 +1,65 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "alex' s learning style test",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "QuestionIntent",
+                    "slots": [],
+                    "samples": [
+                        "great",
+                        "I'm good to go",
+                        "I'm ready to learn my learning type",
+                        "yup",
+                        "let's go",
+                        "I'm good",
+                        "I'm ready",
+                        "good",
+                        "yes",
+                        "ok ",
+                        "ready"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "userGuess",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "I choose {userGuess}",
+                        "{userGuess}"
+                    ]
+                },
+                {
+                    "name": "FinalScoreIntent",
+                    "slots": [],
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
